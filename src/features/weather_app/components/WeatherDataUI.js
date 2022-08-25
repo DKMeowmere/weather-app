@@ -1,6 +1,6 @@
 import { Box, Typography, Stack, IconButton, Tooltip } from "@mui/material"
 import { Info as InfoIcon } from "@mui/icons-material"
-import React, { useEffect } from "react"
+import React from "react"
 import { AdditionalInfoDialog } from "./AdditionalInfoDialog"
 import { useDispatch, useSelector } from "react-redux"
 import { openAdditionalInfoDialog } from "../weatherAppDataSlice"

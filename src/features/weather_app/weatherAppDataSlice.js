@@ -26,7 +26,7 @@ const initialState = {
 			"brela",
 			"dubrovnik",
 			"herceg novi",
-			"dover",
+			"dover,uk",
 			"dublin",
 			"katmandu",
 			"dubaj",

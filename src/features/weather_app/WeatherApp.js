@@ -29,10 +29,14 @@ export const WeatherApp = () => {
 				pb={5}
 				px={5}
 				spacing={4}
-				sx={{
+				sx={theme => ({
+					padading: "120px 40px 40px 40px",
+					[theme.breakpoints.down("md")]: {
+						padding: "120px 0 40px 0",
+					},
 					display: "flex",
 					justifyContent: "center",
-				}}
+				})}
 			>
 				<CityWeatherForm />
 				<Stack
